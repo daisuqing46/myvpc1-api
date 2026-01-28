@@ -1,6 +1,6 @@
-venv
-.env
-__pycache__
-*.pyc
-task.db
+venv/
+.venv/
+__pycache__/
+*.db
+
 
