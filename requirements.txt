@@ -1,6 +1,5 @@
-cat > requirements.txt << 'EOF'
 fastapi
-uvicorn
-python-dotenv
+uvicorn[standard]
+sqlalchemy>=2.0
 pymysql
-EOF
+python-dotenv
